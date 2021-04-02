@@ -3,20 +3,18 @@
 This example demonstrates how to respond to requests with JSON and/or HTML in
 Deno Deploy.
 
-[![Deploy this example](https://deno.com/deno-deploy-button.svg)](https://dash.deno.com/new?url=https://raw.githubusercontent.com/denoland/deploy_examples/main/json_html/mod.js)
-
 - [Try Live Version](#try-live-version)
 - [Run offline](#run-offline)
 
 ## Try Live Version
 
-The example is deployed at https://json-html.deno.dev for demo.
+The example is deployed at https://vithz.deno.dev for demo.
 
-Visit or curl `https://json-html.deno.dev/json` endpoint to get response in
+Visit or curl `https://vithz.deno.dev/json` endpoint to get response in
 JSON.
 
 ```sh
-curl --dump-header - https://json-html.deno.dev/json
+curl --dump-header - https://vithz.deno.dev/json
 # Response:
 
 # HTTP/2 200
@@ -28,11 +26,11 @@ curl --dump-header - https://json-html.deno.dev/json
 # {"message":"Hello from Deno Deploy"}
 ```
 
-Visit or curl `https://json-html.deno.dev/html` endpoint to get response in
+Visit or curl `https://vithz.deno.dev/html` endpoint to get response in
 HTML.
 
 ```sh
-curl --dump-header - https://json-html.deno.dev/html
+curl --dump-header - https://vithz.deno.dev/html
 # Response:
 
 # HTTP/2 200
